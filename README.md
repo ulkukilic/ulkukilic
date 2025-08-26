@@ -1,5 +1,5 @@
 # 💫 About Me:
-# Ülkü Kılıç | Full Stack Web Developer 🌍<br><br>“First, I drink coffee. Then, I write code.” ☕  <br>“It works on my machine.” – Every Developer Ever 😅  <br><br>## 🧠 About Me  <br><br>- 🔭 Currently working on *PHP & Laravel projects*  <br>- 🌱 Always learning *new technologies and best practices*  <br>- 🤝 Open to collaborate on *backend or full-stack projects*  <br>- 💬 Ask me about *PHP, Laravel, MySQL, and building scalable web applications*  <br>- ⚡ Fun fact: I enjoy solving complex bugs and turning them into learning opportunities 🚀<br><br>
+# Ülkü Kılıç | Full Stack Web Developer 🌍<br><br>“First, I drink coffee. Then, I write code.” ☕  <br>“It works on my machine.” – Every Developer Ever 😅  <br><br>  <br><br>- 🔭 Currently working on *PHP & Laravel projects*  <br>- 🌱 Always learning *new technologies and best practices*  <br>- 🤝 Open to collaborate on *backend or full-stack projects*  <br>- 💬 Ask me about *PHP, Laravel, MySQL, and building scalable web applications*  <br>- ⚡ Fun fact: I enjoy solving complex bugs and turning them into learning opportunities 🚀<br><br>
 
 
 ## 🌐 Socials:
@@ -12,10 +12,6 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=ulkukilic&theme=shadow_blue&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ulkukilic&theme=shadow_blue&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=ulkukilic&theme=shadow_blue&no-frame=false&no-bg=true&margin-w=4)
-
----
 [![](https://visitcount.itsvg.in/api?id=ulkukilic&icon=5&color=1)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
