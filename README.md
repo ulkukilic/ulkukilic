@@ -1,7 +1,6 @@
 ## 💫 About Me:
 ## Ülkü Kılıç | Full Stack Web Developer 🌍  
-
-*“First, I drink coffee. Then, I write code.”* ☕  
+  
 *“It works on my machine.” – Every Developer Ever* 😅  
 
 - 🔭 Currently working on PHP & Laravel projects  
