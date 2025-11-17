@@ -1,4 +1,4 @@
-## Ülkü Kılıç | Full Stack Web Developer 🌍  
+## Ülkü Kılıç | Web Developer 🌍  
 
 ## 💫 About Me:
 
@@ -43,8 +43,7 @@
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 
-## 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=ulkukilic&theme=shadow_blue&hide_border=false&include_all_commits=false&count_private=false)<br/>
+## 📊 GitHub Stats: <br/> <br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=ulkukilic&theme=shadow_blue&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ulkukilic&theme=shadow_blue&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
