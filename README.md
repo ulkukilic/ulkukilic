@@ -68,20 +68,6 @@
   <img src="https://nirzak-streak-stats.vercel.app/?user=ulkukilic&theme=shadow_blue&hide_border=false" width="48%" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ulkukilic&layout=compact&theme=shadow_blue&hide_border=false" width="45%" />
-</p>
 
 ---
 
-<h2 align="center">👀 Profile Views</h2>
-
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=ulkukilic&icon=5&color=1" />
-</p>
-
----
-
-<p align="center">
-  <i>Building scalable systems, one commit at a time.</i> 🚀
-</p>
