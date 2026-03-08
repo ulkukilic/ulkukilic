@@ -1,50 +1,87 @@
-## Ülkü Kılıç | Web Developer 🌍  
+<h1 align="center">Hi 👋, I'm Ülkü Kılıç</h1>
+<h3 align="center">Backend & Full-Stack Web Developer</h3>
 
-## 💫 About Me:
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=38B2AC&center=true&vCenter=true&width=600&lines=PHP+%26+Laravel+Developer;Backend+Focused+Full-Stack;Clean+Code+%7C+Scalable+Systems;Turning+Bugs+Into+Lessons" alt="Typing SVG" />
+</p>
 
-*“It works on my machine.” – Every Developer Ever* 😅  
+---
 
-- 🔭 Currently working on PHP & Laravel projects  
-- 🌱 Always learning new technologies and best practices  
-- 🤝 Open to collaborate on backend or full-stack projects  
-- 💬 Ask me about PHP, Laravel, MySQL, and building scalable web applications  
-- ⚡ Fun fact: I enjoy solving complex bugs and turning them into learning opportunities 🚀  
+<h2 align="center">🚀 About Me</h2>
 
+<p align="center"><i>“It works on my machine.” – Every Developer Ever 😅</i></p>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ellifulku) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ülkü-kilic-) 
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ulkuklc0@gmail.com) 
+<p align="center">
+🔭 Actively developing <b>PHP & Laravel</b> projects<br/>
+🌱 Continuously improving backend architecture & best practices<br/>
+🤝 Open to <b>backend</b> and <b>full-stack</b> collaborations<br/>
+💬 Ask me about <b>PHP, Laravel, MySQL, REST APIs</b><br/>
+⚡ I enjoy breaking complex bugs down into clean solutions
+</p>
 
+---
 
-## 💻 Tech Stack:
+<h2 align="center">🌐 Connect With Me</h2>
 
-### 🎨 Frontend
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<p align="center">
+  <a href="https://instagram.com/ellifulku" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  <a href="https://linkedin.com/in/ülkü-kilic-" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:ulkuklc0@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
-### ⚙️ Backend
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) 
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) 
-![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
+---
 
-### 🗄️ Database
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) 
-![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+<h2 align="center">🛠️ Tech Stack</h2>
 
-### 🛠️ Tools & Deployment
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+<h3 align="center">🎨 Frontend</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,bootstrap,tailwind" />
+</p>
 
+<h3 align="center">⚙️ Backend</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=php,laravel,java,cs" />
+</p>
 
-## 📊 GitHub Stats: <br/> <br/>
-![](https://nirzak-streak-stats.vercel.app/?user=ulkukilic&theme=shadow_blue&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ulkukilic&theme=shadow_blue&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<h3 align="center">🗄️ Databases</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,mssql" />
+</p>
 
-[![](https://visitcount.itsvg.in/api?id=ulkukilic&icon=5&color=1)](https://visitcount.itsvg.in)
+<h3 align="center">🚀 Tools & Deployment</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vercel,apache" />
+</p>
+
+---
+
+<h2 align="center">📊 GitHub Analytics</h2>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ulkukilic&show_icons=true&theme=shadow_blue&hide_border=false" width="48%" />
+  <img src="https://nirzak-streak-stats.vercel.app/?user=ulkukilic&theme=shadow_blue&hide_border=false" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ulkukilic&layout=compact&theme=shadow_blue&hide_border=false" width="45%" />
+</p>
+
+---
+
+<h2 align="center">👀 Profile Views</h2>
+
+<p align="center">
+  <img src="https://visitcount.itsvg.in/api?id=ulkukilic&icon=5&color=1" />
+</p>
+
+---
+
+<p align="center">
+  <i>Building scalable systems, one commit at a time.</i> 🚀
+</p>
