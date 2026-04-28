@@ -66,7 +66,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ulkukilic&show_icons=true&theme=shadow_blue&hide_border=false" width="48%" />
-  <img src="https://nirzak-streak-stats.vercel.app/?user=ulkukilic&theme=shadow_blue&hide_border=false" width="48%" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=ulkukilic" width="48%" />
 </p>
 
 
