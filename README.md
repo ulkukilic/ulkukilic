@@ -2,21 +2,22 @@
 <h3 align="center">Backend & Full-Stack Web Developer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=38B2AC&center=true&vCenter=true&width=600&lines=PHP+%26+Laravel+Developer;Backend+Focused+Full-Stack;Clean+Code+%7C+Scalable+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=38B2AC&center=true&vCenter=true&width=600&lines=PHP+%26+Laravel+Developer;Backend+Focused+Full-Stack;Scalable+Systems+%7C+Clean+Architecture;REST+API+%7C+Microservices" />
 </p>
 
 ---
 
-<h2 align="center">🚀 About Me</h2>
+<h2 align="center">🌸 About Me</h2>
 
-<p align="center"><i>“It works on my machine.” – Every Developer Ever 😅</i></p>
+<p align="center"><i>“Code with calm mind, build with clean logic ✨”</i></p>
 
 <p align="center">
-🔭 Actively developing <b>PHP & Laravel</b> projects<br/>
-🌱 Continuously improving backend architecture & best practices<br/>
-🤝 Open to <b>backend</b> and <b>full-stack</b> collaborations<br/>
-💬 Ask me about <b>PHP, Laravel, MySQL, REST APIs</b><br/>
-⚡ I enjoy breaking complex bugs down into clean solutions
+🌸 Building scalable backend systems with <b>PHP & Laravel</b><br/>
+💡 Passionate about <b>clean architecture, performance & maintainable code</b><br/>
+🧠 Continuously learning backend systems & modern development practices<br/>
+🤝 Open to <b>backend & full-stack</b> collaborations<br/>
+💬 Ask me about <b>PHP, Laravel, Node.js, Express.js, PostgreSQL, MySQL, REST APIs</b><br/>
+⚡ Turning complex problems into simple, elegant solutions ✨
 </p>
 
 ---
@@ -47,12 +48,12 @@
 
 <h3 align="center">⚙️ Backend</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,java,cs" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,express,java,cs" />
 </p>
 
 <h3 align="center">🗄️ Databases</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,mssql" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mssql" />
 </p>
 
 <h3 align="center">🚀 Tools & Deployment</h3>
@@ -62,13 +63,12 @@
 
 ---
 
-<h2 align="center">📊 GitHub Analytics</h2>
+<h2 align="center">📊 GitHub Activity</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ulkukilic&show_icons=true&theme=shadow_blue&hide_border=false" width="48%" />
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=ulkukilic" width="48%" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=ulkukilic&theme=tokyonight&hide_border=true" width="70%" />
 </p>
 
-
----
-
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ulkukilic&theme=tokyo-night&hide_border=true" width="95%" />
+</p>
