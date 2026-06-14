@@ -2,7 +2,7 @@
 <h3 align="center">Full Stack Developer | AI Integration Specialist</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=4F46E5&center=true&vCenter=true&width=650&lines=Full+Stack+Developer+%7C+React+%26+Next.js;AI-Powered+Web+Applications;LLM+Integration+%7C+Prompt+Engineering;Building+things+that+actually+work+✨" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=4F46E5&center=true&vCenter=true&width=650&lines=Full+Stack+Developer+%7C+React+%26+Next.js;AI-Powered+Web+Applications;LLM+Integration+%7C+Prompt+Engineering;Building+things+that+actually+work+" />
 </p>
 
 ---
@@ -85,7 +85,7 @@
   </a>
   &nbsp;
   <a href="https://ulku-kilic.vercel.app/">
-    <img src="https://img.shields.io/badge/Paperra-Privacy_First_Document_Platform-7C3AED?style=for-the-badge&logoColor=white"/>
+    <img src="https://img.shields.io/badge/DocuTools-Privacy_First_Document_Platform-7C3AED?style=for-the-badge&logoColor=white"/>
   </a>
   &nbsp;
   <a href="https://ulku-kilic.vercel.app/">
