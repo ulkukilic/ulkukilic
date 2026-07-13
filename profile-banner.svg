@@ -1,0 +1,631 @@
+<svg width="1180" height="1813" viewBox="0 0 1180 1813" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ülkü Kılıç profile banner">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="100%" stop-color="#060B18"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#10B981"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%;100%" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+      <animateTransform attributeName="gradientTransform" type="rotate"
+        values="0 0.5 0.5;360 0.5 0.5" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="noiseFilter" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix"
+        values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.6 0"/>
+    </filter>
+  
+    <clipPath id="heroClipL"><rect x="24" y="24" width="448" height="606" rx="20" ry="20"/></clipPath>
+    <clipPath id="heroClipR"><rect x="496" y="24" width="660" height="606" rx="20" ry="20"/></clipPath>
+    <clipPath id="aboutClip"><rect x="24" y="652" width="1132" height="316" rx="20" ry="20"/></clipPath>
+    <clipPath id="certClip"><rect x="24" y="990" width="1132" height="227" rx="20" ry="20"/></clipPath>
+    <clipPath id="projClip"><rect x="24" y="1239" width="1132" height="450" rx="20" ry="20"/></clipPath>
+    <clipPath id="footClip"><rect x="24" y="1711" width="1132" height="78" rx="20" ry="20"/></clipPath>
+
+    <clipPath id="canvasClip"><rect x="0" y="0" width="1180" height="1813" rx="26" ry="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#canvasClip)">
+
+  <rect x="0" y="0" width="1180" height="1813" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1180" height="1813" filter="url(#noiseFilter)" opacity="0.05"/>
+
+  <g opacity="0.9">
+    <circle cx="120" cy="90" r="240" fill="url(#glowA)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 30 20; 0 0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1040" cy="180" r="280" fill="url(#glowB)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -25 25; 0 0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="1693" r="300" fill="url(#glowC)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 20 -20; 0 0" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="997" r="220" fill="url(#glowA)" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -15 15; 0 0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g clip-path="url(#canvasClip)">
+    <rect x="0" y="-90" width="1180" height="120" fill="url(#scanGrad)">
+      <animate attributeName="y" values="-120;1933" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g>
+    <circle cx="723" cy="348" r="1.6" fill="#7C3AED" opacity="0.5">
+      <animate attributeName="opacity" values="0.12;0.65;0.12" dur="5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="158" cy="188" r="2.1" fill="#22D3EE" opacity="0.5">
+      <animate attributeName="opacity" values="0.12;0.65;0.12" dur="6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="252" cy="788" r="1.8" fill="#10B981" opacity="0.5">
+      <animate attributeName="opacity" values="0.12;0.65;0.12" dur="7s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1099" cy="479" r="1.1" fill="#7C3AED" opacity="0.5">
+      <animate attributeName="opacity" values="0.12;0.65;0.12" dur="8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="948" cy="896" r="1.2" fill="#22D3EE" opacity="0.5">
+      <animate attributeName="opacity" values="0.12;0.65;0.12" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="245" cy="1168" r="1.6" fill="#10B981" opacity="0.5">
+      <animate attributeName="opacity" values="0.12;0.65;0.12" dur="5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="313" cy="497" r="1.9" fill="#7C3AED" opacity="0.5">
+      <animate attributeName="opacity" values="0.12;0.65;0.12" dur="6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="186" cy="1221" r="1.8" fill="#22D3EE" opacity="0.5">
+      <animate attributeName="opacity" values="0.12;0.65;0.12" dur="7s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="161" cy="492" r="1.2" fill="#10B981" opacity="0.5">
+      <animate attributeName="opacity" values="0.12;0.65;0.12" dur="8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="332" cy="633" r="1.6" fill="#7C3AED" opacity="0.5">
+      <animate attributeName="opacity" values="0.12;0.65;0.12" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+
+  <g clip-path="url(#heroClipL)">
+    <rect x="24" y="24" width="448" height="606" rx="20" ry="20"
+      fill="#0F172A" fill-opacity="0.55" filter="url(#softBlur)"/>
+    <rect x="24" y="24" width="448" height="606" rx="20" ry="20"
+      fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+
+    <rect x="42" y="42" width="412" height="34" rx="8" fill="#111A2E" opacity="0.9"/>
+    <circle cx="58" cy="59" r="5" fill="#EF4444"/>
+    <circle cx="76" cy="59" r="5" fill="#F59E0B"/>
+    <circle cx="94" cy="59" r="5" fill="#10B981"/>
+    <text x="442" y="64" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="11" fill="#94A3B8">ascii.sh</text>
+
+    <g font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="url(#asciiGrad)" filter="url(#glow)">
+      <text x="50" y="94.0" opacity="0">      .-----------------.<animate attributeName="opacity" from="0" to="1" begin="0.0s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="114.0" opacity="0">     /                   \<animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="134.0" opacity="0">    |     O         O     |<animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="154.0" opacity="0">    |                     |<animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="174.0" opacity="0">    |        \___/        |<animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="194.0" opacity="0">     \                   /<animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="214.0" opacity="0">      '-----+-----+-----'<animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="234.0" opacity="0">            |     |<animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="254.0" opacity="0">      .-----+-----+-----.<animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="274.0" opacity="0">      |  ###############  |<animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="294.0" opacity="0">      |  ...............  |<animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="314.0" opacity="0">      '-------------------'<animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="334.0" opacity="0">           /|     |\<animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="354.0" opacity="0">          / |     | \<animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="374.0" opacity="0">         /  |     |  \<animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="394.0" opacity="0">   -----'   '-----'   '-----<animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="414.0" opacity="0"> <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="434.0" opacity="0">  +-----------------------+<animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="454.0" opacity="0">  | &gt; system.init()        |<animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="474.0" opacity="0">  | &gt; loading profile...   |<animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="494.0" opacity="0">  | &gt; user: ulku-kilic     |<animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="514.0" opacity="0">  | &gt; role: full-stack.ai  |<animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="534.0" opacity="0">  | &gt; status: online *     |<animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="554.0" opacity="0">  +-----------------------+<animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.3s" fill="freeze"/></text>
+      <text x="50" y="574.0" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.3s" fill="freeze"/>
+        _<animate attributeName="opacity" values="1;0;1" dur="1s" begin="2.4s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g clip-path="url(#heroClipR)">
+    <rect x="496" y="24" width="660" height="606" rx="20" ry="20"
+      fill="#0F172A" fill-opacity="0.55" filter="url(#softBlur)"/>
+    <rect x="496" y="24" width="660" height="606" rx="20" ry="20"
+      fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+
+    <rect x="514" y="42" width="624" height="34" rx="8" fill="#111A2E" opacity="0.9"/>
+    <circle cx="530" cy="59" r="5" fill="#EF4444"/>
+    <circle cx="548" cy="59" r="5" fill="#F59E0B"/>
+    <circle cx="566" cy="59" r="5" fill="#10B981"/>
+    <text x="1126" y="64" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="11" fill="#94A3B8">profile.sh</text>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.22s" dur="0.4s" fill="freeze"/>
+      <text x="526" y="122" font-family="Fira Code, Consolas, monospace" font-size="22" fill="#F8FAFC">Hi 👋</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.29s" dur="0.4s" fill="freeze"/>
+      <text x="526" y="160" font-family="Fira Code, Consolas, monospace" font-size="25" font-weight="700" fill="url(#accentGrad)">I'm Ülkü Kılıç</text>
+    </g>
+    <g font-family="Fira Code, Consolas, monospace" font-size="16" fill="#22D3EE">
+      <clipPath id="typeClip0">
+        <rect x="522" y="190" height="24">
+          <animate attributeName="width" values="0;388.8;388.8;0;0" keyTimes="0;0.0234;0.2266;0.25;1"
+            dur="12.8s" begin="0.0s" repeatCount="indefinite"/>
+        </rect>
+      </clipPath>
+      <g clip-path="url(#typeClip0)">
+        <text x="526" y="206">&gt; Full Stack Developer | React &amp; Next.js</text>
+      </g>
+      <clipPath id="typeClip1">
+        <rect x="522" y="190" height="24">
+          <animate attributeName="width" values="0;283.2;283.2;0;0" keyTimes="0;0.0234;0.2266;0.25;1"
+            dur="12.8s" begin="3.2s" repeatCount="indefinite"/>
+        </rect>
+      </clipPath>
+      <g clip-path="url(#typeClip1)">
+        <text x="526" y="206">&gt; AI-Powered Web Applications</text>
+      </g>
+      <clipPath id="typeClip2">
+        <rect x="522" y="190" height="24">
+          <animate attributeName="width" values="0;369.6;369.6;0;0" keyTimes="0;0.0234;0.2266;0.25;1"
+            dur="12.8s" begin="6.4s" repeatCount="indefinite"/>
+        </rect>
+      </clipPath>
+      <g clip-path="url(#typeClip2)">
+        <text x="526" y="206">&gt; LLM Integration | Prompt Engineering</text>
+      </g>
+      <clipPath id="typeClip3">
+        <rect x="522" y="190" height="24">
+          <animate attributeName="width" values="0;350.4;350.4;0;0" keyTimes="0;0.0234;0.2266;0.25;1"
+            dur="12.8s" begin="9.6s" repeatCount="indefinite"/>
+        </rect>
+      </clipPath>
+      <g clip-path="url(#typeClip3)">
+        <text x="526" y="206">&gt; Building things that actually work</text>
+      </g>
+      <rect x="526" y="192" width="2" height="18" fill="#22D3EE">
+        <animate attributeName="x"
+          values="526;914.8;914.8;526;526;809.2;809.2;526;526;895.6;895.6;526;526;876.4;876.4;526"
+          keyTimes="0;0.0234;0.2266;0.25;0.25;0.2734;0.4766;0.5;0.5;0.5234;0.7266;0.75;0.75;0.7734;0.9766;1"
+          dur="12.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.36s" dur="0.4s" fill="freeze"/>
+      <text x="526" y="248" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC">📍<tspan fill="#94A3B8" dx="9">Location:</tspan><tspan fill="#F8FAFC" dx="6">Warsaw, Poland</tspan></text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.43s" dur="0.4s" fill="freeze"/>
+      <text x="526" y="275" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC">🎓<tspan fill="#94A3B8" dx="9">Education:</tspan><tspan fill="#F8FAFC" dx="6">Computer Engineering, Vistula University</tspan></text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.4s" fill="freeze"/>
+      <text x="526" y="302" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC">💡<tspan fill="#94A3B8" dx="9">Current Focus:</tspan><tspan fill="#F8FAFC" dx="6">AI-Enhanced Web Applications</tspan></text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.57s" dur="0.4s" fill="freeze"/>
+      <text x="526" y="329" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC">🌐<tspan fill="#94A3B8" dx="9">Portfolio:</tspan><tspan fill="#F8FAFC" dx="6">ulku-kilic.vercel.app</tspan></text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.64s" dur="0.4s" fill="freeze"/>
+      <text x="526" y="356" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC">✉<tspan fill="#94A3B8" dx="9">Email:</tspan><tspan fill="#F8FAFC" dx="6">ulkuklc0@gmail.com</tspan></text>
+    </g>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.71s" dur="0.4s" fill="freeze"/>
+      <text x="526" y="407" font-family="Fira Code, Consolas, monospace" font-size="12.5" fill="#94A3B8">SKILLS</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.76s" dur="0.35s" fill="freeze"/>
+      <rect x="526.0" y="405" width="55.0" height="25" rx="12.5"
+        fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="553.5" y="422" text-anchor="middle" font-family="Fira Code, Consolas, monospace"
+        font-size="12" fill="#F8FAFC">PHP</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.81s" dur="0.35s" fill="freeze"/>
+      <rect x="589.0" y="405" width="91.0" height="25" rx="12.5"
+        fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="634.5" y="422" text-anchor="middle" font-family="Fira Code, Consolas, monospace"
+        font-size="12" fill="#F8FAFC">Laravel</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.86s" dur="0.35s" fill="freeze"/>
+      <rect x="688.0" y="405" width="64.0" height="25" rx="12.5"
+        fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" repeatCount="indefinite"/>
+      </rect>
+      <text x="720.0" y="422" text-anchor="middle" font-family="Fira Code, Consolas, monospace"
+        font-size="12" fill="#F8FAFC">Java</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.91s" dur="0.35s" fill="freeze"/>
+      <rect x="760.0" y="405" width="73.0" height="25" rx="12.5"
+        fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="796.5" y="422" text-anchor="middle" font-family="Fira Code, Consolas, monospace"
+        font-size="12" fill="#F8FAFC">MySQL</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.96s" dur="0.35s" fill="freeze"/>
+      <rect x="841.0" y="405" width="145.0" height="25" rx="12.5"
+        fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="913.5" y="422" text-anchor="middle" font-family="Fira Code, Consolas, monospace"
+        font-size="12" fill="#F8FAFC">MS SQL Server</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.01s" dur="0.35s" fill="freeze"/>
+      <rect x="994.0" y="405" width="73.0" height="25" rx="12.5"
+        fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" repeatCount="indefinite"/>
+      </rect>
+      <text x="1030.5" y="422" text-anchor="middle" font-family="Fira Code, Consolas, monospace"
+        font-size="12" fill="#F8FAFC">React</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.06s" dur="0.35s" fill="freeze"/>
+      <rect x="526.0" y="438" width="91.0" height="25" rx="12.5"
+        fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="571.5" y="455" text-anchor="middle" font-family="Fira Code, Consolas, monospace"
+        font-size="12" fill="#F8FAFC">Next.js</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.11s" dur="0.35s" fill="freeze"/>
+      <rect x="625.0" y="438" width="118.0" height="25" rx="12.5"
+        fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="684.0" y="455" text-anchor="middle" font-family="Fira Code, Consolas, monospace"
+        font-size="12" fill="#F8FAFC">TypeScript</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.16s" dur="0.35s" fill="freeze"/>
+      <rect x="751.0" y="438" width="118.0" height="25" rx="12.5"
+        fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" repeatCount="indefinite"/>
+      </rect>
+      <text x="810.0" y="455" text-anchor="middle" font-family="Fira Code, Consolas, monospace"
+        font-size="12" fill="#F8FAFC">JavaScript</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.21s" dur="0.35s" fill="freeze"/>
+      <rect x="877.0" y="438" width="136.0" height="25" rx="12.5"
+        fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="945.0" y="455" text-anchor="middle" font-family="Fira Code, Consolas, monospace"
+        font-size="12" fill="#F8FAFC">Tailwind CSS</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.26s" dur="0.35s" fill="freeze"/>
+      <rect x="526.0" y="471" width="109.0" height="25" rx="12.5"
+        fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="1" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="580.5" y="488" text-anchor="middle" font-family="Fira Code, Consolas, monospace"
+        font-size="12" fill="#F8FAFC">Bootstrap</text>
+    </g>
+
+  </g>
+
+
+  <g clip-path="url(#aboutClip)">
+    <rect x="24" y="652" width="1132" height="316" rx="20" ry="20"
+      fill="#0F172A" fill-opacity="0.55" filter="url(#softBlur)"/>
+    <rect x="24" y="652" width="1132" height="316" rx="20" ry="20"
+      fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.33s" dur="0.4s" fill="freeze"/>
+      <text x="590.0" y="692" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="16" font-style="italic" fill="url(#accentGrad)">"I build things until the red errors disappear —</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.4s" fill="freeze"/>
+      <text x="590.0" y="718" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="16" font-style="italic" fill="url(#accentGrad)">then I think about what's next ✨"</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.47s" dur="0.35s" fill="freeze"/>
+      <text x="54" y="780" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC"><tspan fill="#F8FAFC">🚀  </tspan>Building full stack web applications with React, Next.js, Node.js &amp; PHP/Laravel</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.54s" dur="0.35s" fill="freeze"/>
+      <text x="54" y="808" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC"><tspan fill="#F8FAFC">🤖  </tspan>Integrating AI &amp; LLM APIs into real-world products</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.61s" dur="0.35s" fill="freeze"/>
+      <text x="54" y="836" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC"><tspan fill="#F8FAFC">🧠  </tspan>Exploring prompt engineering, agent systems &amp; AI-powered tools</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.68s" dur="0.35s" fill="freeze"/>
+      <text x="54" y="864" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC"><tspan fill="#F8FAFC">💡  </tspan>Passionate about clean architecture, performance &amp; maintainable code</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.75s" dur="0.35s" fill="freeze"/>
+      <text x="54" y="892" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC"><tspan fill="#F8FAFC">💬  </tspan>Ask me about React, Next.js, TypeScript, Node.js, PHP, Laravel, LLM APIs</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.82s" dur="0.35s" fill="freeze"/>
+      <text x="54" y="920" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC"><tspan fill="#F8FAFC">⚡  </tspan>Turning complex problems into simple, elegant solutions ✨</text>
+    </g>
+
+  </g>
+
+
+  <g clip-path="url(#certClip)">
+    <rect x="24" y="990" width="1132" height="227" rx="20" ry="20"
+      fill="#0F172A" fill-opacity="0.55" filter="url(#softBlur)"/>
+    <rect x="24" y="990" width="1132" height="227" rx="20" ry="20"
+      fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.89s" dur="0.4s" fill="freeze"/>
+      <text x="54" y="1032" font-family="Fira Code, Consolas, monospace" font-size="17" font-weight="700" fill="#F8FAFC">📜  Certifications</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.96s" dur="0.4s" fill="freeze"/>
+      <circle cx="58" cy="1057" r="3" fill="url(#accentGrad)" filter="url(#glow)"/>
+      <text x="72" y="1062" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC">Learn Testing for Web Development</text>
+      <text x="1126" y="1062" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="12.5" fill="#94A3B8">Codecademy · Mar 2025</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.03s" dur="0.4s" fill="freeze"/>
+      <circle cx="58" cy="1084" r="3" fill="url(#accentGrad)" filter="url(#glow)"/>
+      <text x="72" y="1089" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC">Software Testing Fundamentals for ISTQB</text>
+      <text x="1126" y="1089" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="12.5" fill="#94A3B8">Board Infinity · Mar 2025</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.4s" fill="freeze"/>
+      <circle cx="58" cy="1111" r="3" fill="url(#accentGrad)" filter="url(#glow)"/>
+      <text x="72" y="1116" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC">Prompt Engineering for ChatGPT</text>
+      <text x="1126" y="1116" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="12.5" fill="#94A3B8">IBM · Mar 2026</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.17s" dur="0.4s" fill="freeze"/>
+      <circle cx="58" cy="1138" r="3" fill="url(#accentGrad)" filter="url(#glow)"/>
+      <text x="72" y="1143" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC">RESTful API Development with Node.js &amp; Express</text>
+      <text x="1126" y="1143" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="12.5" fill="#94A3B8">Board Infinity · Apr 2026</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.24s" dur="0.4s" fill="freeze"/>
+      <circle cx="58" cy="1165" r="3" fill="url(#accentGrad)" filter="url(#glow)"/>
+      <text x="72" y="1170" font-family="Fira Code, Consolas, monospace" font-size="13.5" fill="#F8FAFC">AWS Cloud Technical Essentials</text>
+      <text x="1126" y="1170" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="12.5" fill="#94A3B8">Amazon · Apr 2026</text>
+    </g>
+
+  </g>
+
+
+  <g clip-path="url(#projClip)">
+    <rect x="24" y="1239" width="1132" height="450" rx="20" ry="20"
+      fill="#0F172A" fill-opacity="0.55" filter="url(#softBlur)"/>
+    <rect x="24" y="1239" width="1132" height="450" rx="20" ry="20"
+      fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.31s" dur="0.4s" fill="freeze"/>
+      <text x="54" y="1281" font-family="Fira Code, Consolas, monospace" font-size="17" font-weight="700" fill="#F8FAFC">🚀  Featured Projects</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.39s" dur="0.4s" fill="freeze"/>
+      <rect x="54.0" y="1307.0" width="527.0" height="116.0" rx="14"
+        fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="70.0" y="1331.0" font-family="Fira Code, Consolas, monospace" font-size="14" font-weight="700" fill="url(#accentGrad)">DocuTools</text>
+      <text x="565.0" y="1331.0" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="11" fill="#94A3B8">2024 — 2025</text>
+      <text x="70.0" y="1353.0" font-family="Fira Code, Consolas, monospace" font-size="12" fill="#94A3B8">Privacy-first, browser-based document tools — all processing happens</text>
+      <text x="70.0" y="1371.0" font-family="Fira Code, Consolas, monospace" font-size="12" fill="#94A3B8">locally.</text>
+      <rect x="70.0" y="1387.0" width="71.2" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="105.6" y="1401.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">Next.js</text>
+      <rect x="147.2" y="1387.0" width="56.0" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="175.2" y="1401.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">React</text>
+      <rect x="209.2" y="1387.0" width="94.0" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="256.2" y="1401.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">TypeScript</text>
+      <rect x="309.2" y="1387.0" width="78.8" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="348.6" y="1401.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">Tailwind</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.47s" dur="0.4s" fill="freeze"/>
+      <rect x="599.0" y="1307.0" width="527.0" height="116.0" rx="14"
+        fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="615.0" y="1331.0" font-family="Fira Code, Consolas, monospace" font-size="14" font-weight="700" fill="url(#accentGrad)">Prime Trust Security</text>
+      <text x="1110.0" y="1331.0" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="11" fill="#94A3B8">2025 — Present</text>
+      <text x="615.0" y="1353.0" font-family="Fira Code, Consolas, monospace" font-size="12" fill="#94A3B8">Corporate site with an AI-powered assistant recommending security</text>
+      <text x="615.0" y="1371.0" font-family="Fira Code, Consolas, monospace" font-size="12" fill="#94A3B8">solutions.</text>
+      <rect x="615.0" y="1387.0" width="71.2" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="650.6" y="1401.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">Next.js</text>
+      <rect x="692.2" y="1387.0" width="56.0" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="720.2" y="1401.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">React</text>
+      <rect x="754.2" y="1387.0" width="116.8" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="812.6" y="1401.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">Framer Motion</text>
+      <rect x="877.0" y="1387.0" width="71.2" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="912.6" y="1401.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">LLM API</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.55s" dur="0.4s" fill="freeze"/>
+      <rect x="54.0" y="1439.0" width="527.0" height="116.0" rx="14"
+        fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="70.0" y="1463.0" font-family="Fira Code, Consolas, monospace" font-size="14" font-weight="700" fill="url(#accentGrad)">Smart Flashcard</text>
+      <text x="565.0" y="1463.0" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="11" fill="#94A3B8">2026 — Present</text>
+      <text x="70.0" y="1485.0" font-family="Fira Code, Consolas, monospace" font-size="12" fill="#94A3B8">AI flashcard app with spaced repetition, analytics &amp; multilingual</text>
+      <text x="70.0" y="1503.0" font-family="Fira Code, Consolas, monospace" font-size="12" fill="#94A3B8">support.</text>
+      <rect x="70.0" y="1519.0" width="71.2" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="105.6" y="1533.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">Next.js</text>
+      <rect x="147.2" y="1519.0" width="56.0" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="175.2" y="1533.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">React</text>
+      <rect x="209.2" y="1519.0" width="94.0" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="256.2" y="1533.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">TypeScript</text>
+      <rect x="309.2" y="1519.0" width="78.8" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="348.6" y="1533.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">Tailwind</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.63s" dur="0.4s" fill="freeze"/>
+      <rect x="599.0" y="1439.0" width="527.0" height="116.0" rx="14"
+        fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="615.0" y="1463.0" font-family="Fira Code, Consolas, monospace" font-size="14" font-weight="700" fill="url(#accentGrad)">Lume Home</text>
+      <text x="1110.0" y="1463.0" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="11" fill="#94A3B8">2026 — Present</text>
+      <text x="615.0" y="1485.0" font-family="Fira Code, Consolas, monospace" font-size="12" fill="#94A3B8">Home products e-commerce platform with scalable architecture.</text>
+      <rect x="615.0" y="1519.0" width="71.2" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="650.6" y="1533.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">Next.js</text>
+      <rect x="692.2" y="1519.0" width="56.0" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="720.2" y="1533.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">React</text>
+      <rect x="754.2" y="1519.0" width="94.0" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="801.2" y="1533.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">TypeScript</text>
+      <rect x="854.2" y="1519.0" width="78.8" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="893.6" y="1533.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">Tailwind</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.71s" dur="0.4s" fill="freeze"/>
+      <rect x="54.0" y="1571.0" width="527.0" height="98.0" rx="14"
+        fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="70.0" y="1595.0" font-family="Fira Code, Consolas, monospace" font-size="14" font-weight="700" fill="url(#accentGrad)">Syllabus Management System</text>
+      <text x="565.0" y="1595.0" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="11" fill="#94A3B8">2025</text>
+      <text x="70.0" y="1617.0" font-family="Fira Code, Consolas, monospace" font-size="12" fill="#94A3B8">Role-based academic platform digitizing university workflows.</text>
+      <rect x="70.0" y="1633.0" width="40.8" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="90.4" y="1647.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">PHP</text>
+      <rect x="116.8" y="1633.0" width="56.0" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="144.8" y="1647.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">MySQL</text>
+      <rect x="178.8" y="1633.0" width="94.0" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="225.8" y="1647.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">JavaScript</text>
+      <rect x="278.8" y="1633.0" width="78.8" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="318.2" y="1647.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">Tailwind</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.79s" dur="0.4s" fill="freeze"/>
+      <rect x="599.0" y="1571.0" width="527.0" height="98.0" rx="14"
+        fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="615.0" y="1595.0" font-family="Fira Code, Consolas, monospace" font-size="14" font-weight="700" fill="url(#accentGrad)">Wisdom Kids</text>
+      <text x="1110.0" y="1595.0" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="11" fill="#94A3B8">2026</text>
+      <text x="615.0" y="1617.0" font-family="Fira Code, Consolas, monospace" font-size="12" fill="#94A3B8">Bilingual (TR/EN) kids education platform with LMS integration.</text>
+      <rect x="615.0" y="1633.0" width="71.2" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="650.6" y="1647.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">Next.js</text>
+      <rect x="692.2" y="1633.0" width="56.0" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="720.2" y="1647.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">React</text>
+      <rect x="754.2" y="1633.0" width="78.8" height="19" rx="9.5" fill="rgba(124,58,237,.12)" stroke="rgba(124,58,237,.35)" stroke-width="0.8"/>
+      <text x="793.6" y="1647.0" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#F8FAFC">Tailwind</text>
+    </g>
+
+  </g>
+
+
+  <g clip-path="url(#footClip)">
+    <rect x="24" y="1711" width="1132" height="78" rx="20" ry="20"
+      fill="#0F172A" fill-opacity="0.55" filter="url(#softBlur)"/>
+    <rect x="24" y="1711" width="1132" height="78" rx="20" ry="20"
+      fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.89s" dur="0.4s" fill="freeze"/>
+      <circle cx="205.0" cy="1751.0" r="4.5" fill="url(#accentGrad)" filter="url(#glow)">
+        <animate attributeName="r" values="4.5;5.5;4.5" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="220.0" y="1755.0" font-family="Fira Code, Consolas, monospace" font-size="12.5" fill="#F8FAFC">GitHub</text>
+      <text x="220.0" y="1771.0" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#94A3B8">github.com/ulkukilic</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.99s" dur="0.4s" fill="freeze"/>
+      <circle cx="395.0" cy="1751.0" r="4.5" fill="url(#accentGrad)" filter="url(#glow)">
+        <animate attributeName="r" values="4.5;5.5;4.5" dur="2.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="410.0" y="1755.0" font-family="Fira Code, Consolas, monospace" font-size="12.5" fill="#F8FAFC">LinkedIn</text>
+      <text x="410.0" y="1771.0" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#94A3B8">linkedin.com/in/ulku-kilic</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="3.09s" dur="0.4s" fill="freeze"/>
+      <circle cx="635.0" cy="1751.0" r="4.5" fill="url(#accentGrad)" filter="url(#glow)">
+        <animate attributeName="r" values="4.5;5.5;4.5" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="650.0" y="1755.0" font-family="Fira Code, Consolas, monospace" font-size="12.5" fill="#F8FAFC">Portfolio</text>
+      <text x="650.0" y="1771.0" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#94A3B8">ulku-kilic.vercel.app</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="3.19s" dur="0.4s" fill="freeze"/>
+      <circle cx="840.0" cy="1751.0" r="4.5" fill="url(#accentGrad)" filter="url(#glow)">
+        <animate attributeName="r" values="4.5;5.5;4.5" dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="855.0" y="1755.0" font-family="Fira Code, Consolas, monospace" font-size="12.5" fill="#F8FAFC">Email</text>
+      <text x="855.0" y="1771.0" font-family="Fira Code, Consolas, monospace" font-size="10.5" fill="#94A3B8">ulkuklc0@gmail.com</text>
+    </g>
+
+  </g>
+
+  </g>
+
+  <rect x="2" y="2" width="1176" height="1809" rx="24" ry="24" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1176" height="1809" rx="24" ry="24" fill="none"
+    stroke="url(#accentGrad)" stroke-width="1.5" stroke-dasharray="60 5986" opacity="0.9">
+    <animate attributeName="stroke-dashoffset" values="0;-11972" dur="9s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>
